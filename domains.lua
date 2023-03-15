@@ -15,16 +15,15 @@ M.ssh_domains = {
         name = 'SSH:Fedora-Dev',
         -- The hostname or address to connect to. Will be used to match settings
         -- from your ssh config file
-        remote_address = '192.168.1.12',
+        remote_address = 'home.colinshen.xyz:2022',
         -- The username to use on the remote host
         username = 'colinshen'
-    }, 
-    {
+    }, {
         -- This name identifies the domain
         name = 'SSH:Rocky',
         -- The hostname or address to connect to. Will be used to match settings
         -- from your ssh config file
-        remote_address = '192.168.1.11',
+        remote_address = 'home.colinshen.xyz:1022',
         -- The username to use on the remote host
         username = 'ss'
     }
