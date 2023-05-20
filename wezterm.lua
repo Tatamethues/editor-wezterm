@@ -17,5 +17,9 @@ config.window_padding = {
 	top = 0,
 	bottom =0 ,
 }
+
+-- Tab
+config.tab_bar_at_bottom = true
+
 wezterm.log_info(config)
 return config
