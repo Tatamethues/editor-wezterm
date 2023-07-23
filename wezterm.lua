@@ -21,5 +21,4 @@ config.window_padding = {
 -- Tab
 config.tab_bar_at_bottom = true
 
-wezterm.log_info(config)
 return config
